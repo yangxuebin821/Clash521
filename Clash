@@ -5,243 +5,251 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: MN_1210, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰 HK-🇭🇰HK_812, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖, server: gy.ziqiyun.xyz, port: 45436, type: ss, cipher: chacha20-ietf-poly1305, password: d975d166-f2b7-4072-a31a-edbe5c097011, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 欧洲(油管:破解资源君2.0) 35, server: kk.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: "[Azure]新加坡", server: azhk.r.optage.moe, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: azhk.r.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: "[负载均衡]香港•Azure", server: azhk.n.optage.moe, port: 44602, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_1637, server: nl1.nodegz.top, port: 443, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, sni: nl1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 9, server: nl1.nodegz.top, port: 443, type: trojan, password: 62867210-7dd6-3b5c-8947-bc419d8528b9, sni: nl1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_1836, server: ru1.nodegz.top, port: 1234, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, sni: ru1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 10, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_1641, server: nl1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: nl1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇹🇿TZ-🇹🇿TZ_1969, server: tx-vip-10.top, port: 443, type: trojan, password: s6rIg1Mkke73fwZU, sni: tx-vip-10.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 11, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: "[沪日]美国2", server: shcu.alinkrelay.com, port: 44611, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: shcu.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_1643, server: nl1.nodegz.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, sni: nl1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 12, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_1642, server: nl1.nodegz.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: nl1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: AU_511, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: RU_1839, server: us1.nodegz.top, port: 443, type: trojan, password: 25e87dc7-5b48-337c-9fbf-ca8dfd1bdb86, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: RU_1835, server: us1.nodegz.top, port: 443, type: trojan, password: a17e1ef5-5172-310e-8687-ddc29063a7e0, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: RU_1843, server: us1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: RU_1842, server: us1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 13, server: sghe.tjvpn.org, port: 443, type: trojan, password: 363b95c0-e9ec-11ec-b631-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
-  - {name: RU_1840, server: us1.nodegz.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(油管:破解资源君2.0) 2, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: DE_646, server: 165.22.73.126, port: 23335, type: ss, cipher: aes-256-cfb, password: 7d99ae502227454ea998d71e4b62a388, udp: true}
-  - {name: _油管：全网最强白嫖 14, server: ru.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: ru.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(油管:破解资源君2.0) 4, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 15, server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: _油管：全网最强白嫖 16, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 17, server: f4.v2.gay, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty}, udp: true}
-  - {name: _油管：全网最强白嫖 18, server: 175.178.163.153, port: 443, type: vmess, uuid: 9b4d4f9c-c5bf-4a3b-a6ea-f675989d9cbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 175.178.163.153}, udp: true}
-  - {name: _341, server: 213.183.53.208, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: _油管：全网最强白嫖 19, server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty}, udp: true}
-  - {name: _油管：全网最强白嫖 20, server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty, port: 668, type: vmess, uuid: a0fec1fb-e217-344b-84e1-45b412ccd670, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: _340, server: 213.183.53.208, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 俄罗斯(油管:破解资源君2.0) 3, server: v2.ssrsub.com, port: 153, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: LT_1068, server: 213.183.53.208, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 美国(油管:破解资源君2.0) 10, server: 150.230.99.46, port: 22222, type: vmess, uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 21, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.15738743.xyz}, udp: true}
-  - {name: _油管：全网最强白嫖 22, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
-  - {name: LT_925, server: 213.183.53.208, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: _油管：全网最强白嫖 23, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_613, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 24, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[沪日]新加坡", server: shcu.alinkrelay.com, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: shcu.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 25, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(油管:破解资源君2.0) 2, server: v2.ssrsub.com, port: 153, type: vmess, uuid: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
+  - {name: _油管：全网最强白嫖, server: q8eq.cdn.node.a.ddns-ounk.xyz, port: 13614, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: q8eq.cdn.node.a.ddns-ounk.xyz, port: 13613, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: q8eq.cdn.node.a.ddns-ounk.xyz, port: 13090, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: q8eq.cdn.node.a.ddns-ounk.xyz, port: 13615, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: eqwr51.cdn.node.a.ddns-ounk.xyz, port: 13556, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: eqwr51.cdn.node.a.ddns-ounk.xyz, port: 13558, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: eqwr51.cdn.node.a.ddns-ounk.xyz, port: 13566, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: eqwr51.cdn.node.a.ddns-ounk.xyz, port: 13564, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: r97q.cdn.node.a.ddns-ounk.xyz, port: 13569, type: vmess, uuid: c50e7ff0-98ef-33ba-a226-1e77952cd6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.ddns-ounk.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: eqwr51.cdn.node.a.ddns-ounk.xyz, port: 13562, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: q8eq.cdn.node.a.ddns-ounk.xyz, port: 13609, type: vmess, uuid: c50e7ff0-98ef-33ba-a226-1e77952cd6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: q8eq.cdn.node.a.ddns-ounk.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 12, server: cd69.cdn.node.a.ddns-ounk.xyz, port: 13640, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 13, server: cd69.cdn.node.a.ddns-ounk.xyz, port: 13639, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 14, server: eqwr51.cdn.node.a.ddns-ounk.xyz, port: 13568, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 15, server: cd69.cdn.node.a.ddns-ounk.xyz, port: 13641, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 16, server: mjk6.cdn.node.a.ddns-ounk.xyz, port: 13299, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 17, server: 20.24.197.219, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: _油管：全网最强白嫖 18, server: r97q.cdn.node.a.ddns-ounk.xyz, port: 13351, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 19, server: 20.24.197.210, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: _油管：全网最强白嫖 20, server: r97q.cdn.node.a.ddns-ounk.xyz, port: 13563, type: vmess, uuid: c50e7ff0-98ef-33ba-a226-1e77952cd6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.ddns-ounk.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 21, server: mjk6.cdn.node.a.ddns-ounk.xyz, port: 13298, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 22, server: mjk6.cdn.node.a.ddns-ounk.xyz, port: 13300, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 23, server: cd69.cdn.node.a.ddns-ounk.xyz, port: 13665, type: vmess, uuid: c50e7ff0-98ef-33ba-a226-1e77952cd6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: cd69.cdn.node.a.ddns-ounk.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 24, server: r97q.cdn.node.a.ddns-ounk.xyz, port: 13565, type: vmess, uuid: c50e7ff0-98ef-33ba-a226-1e77952cd6c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, ws-headers: {Host: r97q.cdn.node.a.ddns-ounk.xyz}, udp: true}
+  - {name: _油管：全网最强白嫖 25, server: mjk6.cdn.node.a.ddns-ounk.xyz, port: 13301, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: 油管：全网最强白嫖, server: 103.173.255.21, port: 28443, type: trojan, password: 6d2b7ae6-7b67-4116-b6ae-3069c54d2042, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 26, server: 45.138.70.40, port: 80, type: vmess, uuid: 04ea7f40-6d96-4cb3-b557-f33fc8893e49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 45.138.70.40}, udp: true}
+  - {name: _油管频道：全网最强白嫖, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
+  - {name: _油管：全网最强白嫖 27, server: hn.zfnode.org, port: 30217, type: trojan, password: 63ec756d-1f6a-36c8-a9fd-025f4acfc74f, sni: hn.zfnode.org, skip-cert-verify: true, udp: true}
+  - {name: _油管频道：全网最强白嫖 2, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: data-hk-v2.shwjfkw.cn}, udp: true}
+  - {name: _油管：全网最强白嫖 28, server: 20.89.101.199, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 美国(油管:破解资源君2.0) 42, server: 104.149.154.154, port: 25966, type: vmess, uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /VTd4o3Kj/, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: _油管频道：全网最强白嫖 3, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: _油管频道：全网最强白嫖 4, server: data-hk-v2.heisey.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
+  - {name: _油管：全网最强白嫖 29, server: mjk6.cdn.node.a.ddns-ounk.xyz, port: 13302, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 270046:Etrt9d, obfs-param: MmNiNDUyNzAwNDYubWljcm9zb2Z0LmNvbQ, udp: true}
+  - {name: _油管：全网最强白嫖 30, server: g1.v2.gay, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
+  - {name: _油管频道：全网最强白嫖 5, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.15738743.xyz}, udp: true}
+  - {name: _油管频道：全网最强白嫖 6, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
+  - {name: _油管频道：全网最强白嫖 7, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
+  - {name: _油管：全网最强白嫖 31, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
+  - {name: _油管：全网最强白嫖 32, server: 203.218.84.13, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 33, server: 120.233.7.221, port: 18005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 34, server: 139.227.78.64, port: 17010, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 35, server: 120.197.130.126, port: 13007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 36, server: 139.227.78.64, port: 17005, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 37, server: 139.227.78.64, port: 17004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 38, server: 139.227.78.64, port: 17008, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 39, server: 139.227.78.64, port: 17009, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 40, server: 120.195.181.51, port: 11508, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 41, server: 120.233.7.221, port: 18004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 42, server: 120.197.130.126, port: 13006, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 43, server: 36.139.115.52, port: 11301, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 44, server: 120.195.181.51, port: 11507, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 45, server: 36.139.115.52, port: 11208, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 46, server: 120.197.130.126, port: 13003, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 47, server: 120.233.7.221, port: 32004, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 48, server: 42.3.19.58, port: 39999, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,248 +268,255 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[负载均衡]香港•Azure"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -517,61 +532,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - MN_1210
-      - Relay_🇭🇰 HK-🇭🇰HK_812
       - _油管：全网最强白嫖
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
       - _油管：全网最强白嫖 4
-      - 欧洲(油管:破解资源君2.0) 35
       - _油管：全网最强白嫖 5
-      - "[Azure]新加坡"
       - _油管：全网最强白嫖 6
-      - "[负载均衡]香港•Azure"
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
-      - Relay_🇳🇱NL-🇳🇱NL_1637
       - _油管：全网最强白嫖 9
-      - Relay_🇷🇺RU-🇷🇺RU_1836
       - _油管：全网最强白嫖 10
-      - Relay_🇳🇱NL-🇳🇱NL_1641
-      - Relay_🇹🇿TZ-🇹🇿TZ_1969
       - _油管：全网最强白嫖 11
-      - "[沪日]美国2"
-      - Relay_🇳🇱NL-🇳🇱NL_1643
       - _油管：全网最强白嫖 12
-      - Relay_🇳🇱NL-🇳🇱NL_1642
-      - AU_511
-      - RU_1839
-      - RU_1835
-      - RU_1843
-      - RU_1842
       - _油管：全网最强白嫖 13
-      - RU_1840
-      - 新加坡(油管:破解资源君2.0) 2
-      - DE_646
       - _油管：全网最强白嫖 14
-      - 亚洲(油管:破解资源君2.0) 4
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
       - _油管：全网最强白嫖 18
-      - _341
       - _油管：全网最强白嫖 19
       - _油管：全网最强白嫖 20
-      - _340
-      - 俄罗斯(油管:破解资源君2.0) 3
-      - LT_1068
-      - 美国(油管:破解资源君2.0) 10
       - _油管：全网最强白嫖 21
       - _油管：全网最强白嫖 22
-      - LT_925
       - _油管：全网最强白嫖 23
-      - Relay_🇨🇳CN-🇭🇰HK_613
       - _油管：全网最强白嫖 24
-      - "[沪日]新加坡"
       - _油管：全网最强白嫖 25
-      - 俄罗斯(油管:破解资源君2.0) 2
+      - 油管：全网最强白嫖
+      - _油管：全网最强白嫖 26
+      - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖 27
+      - _油管频道：全网最强白嫖 2
+      - _油管：全网最强白嫖 28
+      - 美国(油管:破解资源君2.0) 42
+      - _油管频道：全网最强白嫖 3
+      - _油管频道：全网最强白嫖 4
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
+      - _油管频道：全网最强白嫖 5
+      - _油管频道：全网最强白嫖 6
+      - _油管频道：全网最强白嫖 7
+      - _油管：全网最强白嫖 31
+      - _油管：全网最强白嫖 32
+      - _油管：全网最强白嫖 33
+      - _油管：全网最强白嫖 34
+      - _油管：全网最强白嫖 35
+      - _油管：全网最强白嫖 36
+      - _油管：全网最强白嫖 37
+      - _油管：全网最强白嫖 38
+      - _油管：全网最强白嫖 39
+      - _油管：全网最强白嫖 40
+      - _油管：全网最强白嫖 41
+      - _油管：全网最强白嫖 42
+      - _油管：全网最强白嫖 43
+      - _油管：全网最强白嫖 44
+      - _油管：全网最强白嫖 45
+      - _油管：全网最强白嫖 46
+      - _油管：全网最强白嫖 47
+      - _油管：全网最强白嫖 48
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
