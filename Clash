@@ -5,543 +5,543 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _油管：全网最强白嫖, server: 194.156.231.103, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 194.156.231.251, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 194.156.231.134, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: 194.156.231.134, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: 194.156.231.137, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 194.156.231.253, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: 194.156.231.253, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: 194.156.231.237, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 9, server: 194.156.231.251, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 10, server: 194.156.231.254, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 11, server: 194.156.231.221, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 12, server: 194.156.231.136, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 13, server: 194.156.231.219, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 14, server: 194.156.231.103, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 15, server: 194.156.231.219, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_1243, server: 10.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: 10.vip341.xyz}, udp: true}
-  - {name: _油管：全网最强白嫖 16, server: 194.156.231.126, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 17, server: 194.156.231.136, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 18, server: 194.156.231.137, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 19, server: 194.156.231.253, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 20, server: 194.156.231.221, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 21, server: 194.156.231.237, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 22, server: 194.156.231.134, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_1041, server: gzyd2.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 23, server: 194.156.231.103, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 24, server: 194.156.231.103, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 25, server: 194.156.231.237, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 26, server: 194.156.231.136, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 27, server: 194.156.231.136, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 28, server: 194.156.231.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 29, server: 194.156.231.137, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 30, server: 194.156.231.136, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 31, server: hinet.52147.top, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 32, server: 194.156.231.221, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 33, server: 194.156.231.135, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 美国(油管:破解资源君2.0) 29, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 34, server: 194.156.231.251, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 35, server: 194.156.231.135, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 36, server: 194.156.231.134, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 37, server: 194.156.231.251, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 38, server: 194.156.231.126, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 39, server: 194.156.231.134, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 40, server: 194.156.231.237, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 41, server: 194.156.231.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 42, server: 194.156.231.221, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 43, server: 194.156.231.251, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 44, server: 194.156.231.103, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 45, server: 194.156.231.137, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 46, server: 194.156.231.219, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 47, server: 194.156.231.103, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 48, server: 194.156.231.202, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 49, server: 194.156.231.251, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 50, server: 194.156.231.135, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 51, server: 194.156.231.202, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 52, server: 194.156.231.254, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 53, server: 194.156.231.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 54, server: 194.156.231.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 55, server: 194.156.231.219, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 56, server: 194.156.231.221, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 57, server: 194.156.231.253, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 58, server: 194.156.231.134, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3270, server: 9.vip341.xyz, port: 80, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: 9.vip341.xyz}, udp: true}
-  - {name: _油管：全网最强白嫖 59, server: 194.156.231.126, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 60, server: 194.156.231.253, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 61, server: 194.156.231.251, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 62, server: 194.156.231.237, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 63, server: 194.156.231.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_1312, server: 194.156.231.251, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 64, server: 194.156.231.135, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 65, server: 194.156.231.248, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 66, server: 194.156.231.126, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 67, server: 194.156.231.137, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 68, server: 194.156.231.126, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 69, server: 194.156.231.219, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 70, server: 194.156.231.248, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 71, server: 194.156.231.253, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 72, server: 194.156.231.251, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 73, server: 194.156.231.126, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 74, server: 194.156.231.248, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 75, server: 194.156.231.202, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 76, server: 194.156.231.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 77, server: 194.156.231.254, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_1292, server: 194.156.231.251, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 78, server: 194.156.231.135, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 79, server: 194.156.231.254, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 80, server: 194.156.231.103, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: ZZ_3628, server: 103.173.255.127, port: 28000, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 81, server: 194.156.231.135, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 82, server: 194.156.231.248, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 83, server: 194.156.231.253, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 84, server: 194.156.231.137, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 85, server: 194.156.231.137, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 86, server: 194.156.231.237, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 87, server: 194.156.231.135, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 88, server: 194.156.231.254, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 89, server: 194.156.231.126, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 90, server: 194.156.231.134, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 91, server: 194.156.231.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 92, server: 194.156.231.126, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 93, server: hnyd.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 94, server: 194.156.231.202, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 95, server: 194.156.231.137, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 96, server: 194.156.231.254, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 97, server: 194.156.231.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 98, server: 194.156.231.126, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 99, server: 194.156.231.126, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 100, server: 194.156.231.237, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 101, server: 194.156.231.202, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 102, server: 194.156.231.219, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 103, server: 194.156.231.202, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 104, server: 194.156.231.248, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 105, server: 194.156.231.134, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 106, server: 194.156.231.253, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 107, server: 194.156.231.248, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 108, server: 194.156.231.237, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 109, server: 194.156.231.248, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 110, server: 194.156.231.136, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 111, server: 194.156.231.126, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 112, server: 194.156.231.135, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 113, server: 194.156.231.221, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 114, server: 194.156.231.219, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 115, server: 194.156.231.135, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 116, server: 194.156.231.253, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 117, server: 194.156.231.254, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 118, server: 194.156.231.221, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 119, server: 194.156.231.219, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 120, server: 194.156.231.137, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 121, server: 194.156.231.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 122, server: 194.156.231.103, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 123, server: 194.156.231.202, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 台湾(油管:破解资源君2.0)+8, server: gzyd1.52147.top, port: 20140, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾(油管:破解资源君2.0)+12, server: gzyd2.52147.top, port: 20140, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 香港(油管:破解资源君2.0)+4, server: gzyd2.52147.top, port: 20170, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 香港(油管:破解资源君2.0)+3, server: gzyd2.52147.top, port: 30180, type: trojan, password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: US_2433, server: 38.75.136.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_1088, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: _583, server: 38.68.135.18, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _807, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_3054, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_2540, server: 38.68.134.85, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2641, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 香港(油管:破解资源君2.0)+6, server: hnyd.52147.top, port: 20170, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_2305, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0)+9, server: gzyd2.52147.top, port: 20060, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾(油管:破解资源君2.0)+6, server: gzyd2.52147.top, port: 30010, type: trojan, password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 香港(油管:破解资源君2.0)+5, server: hnyd.52147.top, port: 30180, type: trojan, password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 6, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /youtbue@bai-piao-wang-zhe_vws, ws-headers: {Host: usa23.884899.cf}, udp: true}
+  - {name: _408, server: 38.68.134.85, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 台湾(油管:破解资源君2.0)+5, server: hnyd.52147.top, port: 20140, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: US_2679, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _油管：全网最强白嫖, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0)+10, server: gzyd1.52147.top, port: 30080, type: trojan, password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: _161, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _417, server: 38.68.135.18, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _157, server: 54.36.174.181, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1813, server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0)+7, server: hnyd.52147.top, port: 20060, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇳🇱NL_1970, server: 85.208.108.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _156, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_2538, server: 38.68.134.85, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0)+8, server: gzyd1.52147.top, port: 20060, type: trojan, password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: _799, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇳🇱NL_1877, server: 85.208.108.59, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1854, server: 85.208.108.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Pool_🇳🇱NL_1937, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_2343, server: 38.68.134.85, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3071, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_3072, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_2567, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _794, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_2662, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1836, server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1835, server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_🇳🇱NL_1819, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _335, server: 38.68.135.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: RU_2236, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 195.133.53.192}, udp: true}
+  - {name: US_2642, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇳🇱NL_1933, server: 85.208.108.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇳🇱NL_1808, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _367, server: 38.68.135.18, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _142, server: 54.36.174.181, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1959, server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3176, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_2513, server: 38.68.134.85, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_1203, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_🇳🇱NL_1985, server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_🇳🇱NL_1974, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_🇳🇱NL_1871, server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_3052, server: 38.68.134.85, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2441, server: 38.68.134.85, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _160, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Pool_🇳🇱NL_1915, server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _154, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3166, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇳🇱NL_1810, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _798, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2404, server: 38.68.134.85, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1944, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_🇳🇱NL_1986, server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Pool_🇳🇱NL_1858, server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _162, server: 54.36.174.181, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1826, server: 85.208.108.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1971, server: 85.208.108.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_🇳🇱NL_1930, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_2329, server: 38.68.134.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Pool_🇳🇱NL_1899, server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1931, server: 85.208.108.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Pool_🇳🇱NL_1958, server: 85.208.108.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Pool_🇳🇱NL_1894, server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1866, server: 85.208.108.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Pool_🇳🇱NL_1870, server: 85.208.108.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2398, server: 38.68.134.85, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_🇳🇱NL_1860, server: 85.208.108.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Pool_🇳🇱NL_1942, server: 85.208.108.59, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_🇳🇱NL_1946, server: 85.208.108.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_3067, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2723, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0) 3, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: Pool_🇳🇱NL_1910, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _144, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _151, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1840, server: 85.208.108.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_🇳🇱NL_1890, server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 194.156.231.253, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 194.156.231.219, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_3053, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Pool_🇳🇱NL_1833, server: 85.208.108.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: 194.156.231.253, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool_🇳🇱NL_1820, server: 85.208.108.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_🇳🇱NL_1897, server: 85.208.108.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1829, server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1850, server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2455, server: 38.68.134.85, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _800, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Pool_🇳🇱NL_1923, server: 85.208.108.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2438, server: 38.68.134.85, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_2535, server: 38.68.134.85, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_🇳🇱NL_1953, server: 85.208.108.59, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_🇳🇱NL_1896, server: 85.208.108.59, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1936, server: 85.208.108.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇳🇱NL_1932, server: 85.208.108.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇳🇱NL_1891, server: 85.208.108.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇳🇱NL_1940, server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇳🇱NL_1838, server: 85.208.108.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_🇳🇱NL_1848, server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1886, server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Pool_🇳🇱NL_1853, server: 85.208.108.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_2332, server: 38.68.134.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_3074, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Pool_🇳🇱NL_1907, server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Pool_🇳🇱NL_1963, server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Pool_🇳🇱NL_1868, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_1913, server: 85.208.108.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Pool_🇳🇱NL_1764, server: 85.208.108.59, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_🇳🇱NL_1972, server: 85.208.108.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_🇳🇱NL_1804, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Pool_🇳🇱NL_1902, server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_2590, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -560,547 +560,555 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - 香港(油管:破解资源君2.0)+6
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 台湾(油管:破解资源君2.0)+5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1116,136 +1124,136 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 台湾(油管:破解资源君2.0)+8
+      - 台湾(油管:破解资源君2.0)+12
+      - 香港(油管:破解资源君2.0)+4
+      - 香港(油管:破解资源君2.0)+3
+      - US_2433
+      - Relay_🇨🇳CN-🇹🇼TW_1088
+      - _583
+      - _807
+      - US_3054
+      - US_2540
+      - US_2641
+      - 香港(油管:破解资源君2.0)+6
+      - Relay_🇸🇬SG-🇸🇬SG_2305
+      - 欧洲(油管:破解资源君2.0)+9
+      - 台湾(油管:破解资源君2.0)+6
+      - 香港(油管:破解资源君2.0)+5
+      - 美国(油管:破解资源君2.0) 6
+      - _408
+      - 台湾(油管:破解资源君2.0)+5
+      - US_2679
       - _油管：全网最强白嫖
+      - 欧洲(油管:破解资源君2.0)+10
+      - _161
+      - _417
       - _油管：全网最强白嫖 2
+      - _157
+      - Pool_🇳🇱NL_1813
+      - 欧洲(油管:破解资源君2.0)+7
+      - Pool_🇳🇱NL_1970
+      - _156
+      - US_2538
+      - 欧洲(油管:破解资源君2.0)+8
+      - _799
+      - Pool_🇳🇱NL_1877
+      - Pool_🇳🇱NL_1854
+      - Pool_🇳🇱NL_1937
+      - US_2343
       - _油管：全网最强白嫖 3
+      - US_3071
+      - US_3072
+      - US_2567
+      - _794
+      - US_2662
+      - Pool_🇳🇱NL_1836
+      - Pool_🇳🇱NL_1835
+      - Pool_🇳🇱NL_1819
+      - _335
+      - RU_2236
+      - US_2642
+      - Pool_🇳🇱NL_1933
+      - Pool_🇳🇱NL_1808
+      - _367
+      - _142
+      - Pool_🇳🇱NL_1959
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - US_2513
+      - FR_1203
+      - Pool_🇳🇱NL_1985
+      - Pool_🇳🇱NL_1974
+      - Pool_🇳🇱NL_1871
+      - US_3052
+      - US_2441
+      - _160
+      - Pool_🇳🇱NL_1915
+      - _154
+      - Relay_🇺🇸US-🇺🇸US_3166
+      - Pool_🇳🇱NL_1810
+      - _798
+      - US_2404
+      - Pool_🇳🇱NL_1944
+      - Pool_🇳🇱NL_1986
+      - Pool_🇳🇱NL_1858
+      - _162
+      - Pool_🇳🇱NL_1826
+      - Pool_🇳🇱NL_1971
+      - Pool_🇳🇱NL_1930
+      - US_2329
+      - Pool_🇳🇱NL_1899
+      - Pool_🇳🇱NL_1931
+      - Pool_🇳🇱NL_1958
+      - Pool_🇳🇱NL_1894
+      - Pool_🇳🇱NL_1866
+      - Pool_🇳🇱NL_1870
+      - US_2398
+      - Pool_🇳🇱NL_1860
+      - Pool_🇳🇱NL_1942
+      - Pool_🇳🇱NL_1946
+      - US_3067
+      - US_2723
+      - 欧洲(油管:破解资源君2.0) 3
+      - Pool_🇳🇱NL_1910
+      - _144
+      - _151
+      - Pool_🇳🇱NL_1840
+      - Pool_🇳🇱NL_1890
       - _油管：全网最强白嫖 4
       - _油管：全网最强白嫖 5
+      - US_3053
+      - Pool_🇳🇱NL_1833
       - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - _油管：全网最强白嫖 15
-      - Relay_🇭🇰HK-🇭🇰HK_1243
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - Relay_🇨🇳CN-🏁ZZ_1041
-      - _油管：全网最强白嫖 23
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - 美国(油管:破解资源君2.0) 29
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - Relay_🇺🇸US-🇺🇸US_3270
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - JP_1312
-      - _油管：全网最强白嫖 64
-      - _油管：全网最强白嫖 65
-      - _油管：全网最强白嫖 66
-      - _油管：全网最强白嫖 67
-      - _油管：全网最强白嫖 68
-      - _油管：全网最强白嫖 69
-      - _油管：全网最强白嫖 70
-      - _油管：全网最强白嫖 71
-      - _油管：全网最强白嫖 72
-      - _油管：全网最强白嫖 73
-      - _油管：全网最强白嫖 74
-      - _油管：全网最强白嫖 75
-      - _油管：全网最强白嫖 76
-      - _油管：全网最强白嫖 77
-      - JP_1292
-      - _油管：全网最强白嫖 78
-      - _油管：全网最强白嫖 79
-      - _油管：全网最强白嫖 80
-      - ZZ_3628
-      - _油管：全网最强白嫖 81
-      - _油管：全网最强白嫖 82
-      - _油管：全网最强白嫖 83
-      - _油管：全网最强白嫖 84
-      - _油管：全网最强白嫖 85
-      - _油管：全网最强白嫖 86
-      - _油管：全网最强白嫖 87
-      - _油管：全网最强白嫖 88
-      - _油管：全网最强白嫖 89
-      - _油管：全网最强白嫖 90
-      - _油管：全网最强白嫖 91
-      - _油管：全网最强白嫖 92
-      - _油管：全网最强白嫖 93
-      - _油管：全网最强白嫖 94
-      - _油管：全网最强白嫖 95
-      - _油管：全网最强白嫖 96
-      - _油管：全网最强白嫖 97
-      - _油管：全网最强白嫖 98
-      - _油管：全网最强白嫖 99
-      - _油管：全网最强白嫖 100
-      - _油管：全网最强白嫖 101
-      - _油管：全网最强白嫖 102
-      - _油管：全网最强白嫖 103
-      - _油管：全网最强白嫖 104
-      - _油管：全网最强白嫖 105
-      - _油管：全网最强白嫖 106
-      - _油管：全网最强白嫖 107
-      - _油管：全网最强白嫖 108
-      - _油管：全网最强白嫖 109
-      - _油管：全网最强白嫖 110
-      - _油管：全网最强白嫖 111
-      - _油管：全网最强白嫖 112
-      - _油管：全网最强白嫖 113
-      - _油管：全网最强白嫖 114
-      - _油管：全网最强白嫖 115
-      - _油管：全网最强白嫖 116
-      - _油管：全网最强白嫖 117
-      - _油管：全网最强白嫖 118
-      - _油管：全网最强白嫖 119
-      - _油管：全网最强白嫖 120
-      - _油管：全网最强白嫖 121
-      - _油管：全网最强白嫖 122
-      - _油管：全网最强白嫖 123
+      - Pool_🇳🇱NL_1820
+      - Pool_🇳🇱NL_1897
+      - Pool_🇳🇱NL_1829
+      - Pool_🇳🇱NL_1850
+      - US_2455
+      - _800
+      - Pool_🇳🇱NL_1923
+      - US_2438
+      - US_2535
+      - Pool_🇳🇱NL_1953
+      - Pool_🇳🇱NL_1896
+      - Pool_🇳🇱NL_1936
+      - Pool_🇳🇱NL_1932
+      - Pool_🇳🇱NL_1891
+      - Pool_🇳🇱NL_1940
+      - Pool_🇳🇱NL_1838
+      - Pool_🇳🇱NL_1848
+      - Pool_🇳🇱NL_1886
+      - Pool_🇳🇱NL_1853
+      - US_2332
+      - US_3074
+      - Pool_🇳🇱NL_1907
+      - Pool_🇳🇱NL_1963
+      - Pool_🇳🇱NL_1868
+      - Pool_🇳🇱NL_1913
+      - Pool_🇳🇱NL_1764
+      - Pool_🇳🇱NL_1972
+      - Pool_🇳🇱NL_1804
+      - Pool_🇳🇱NL_1902
+      - US_2590
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
