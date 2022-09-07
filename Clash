@@ -5,595 +5,375 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _YouTube：全我那个最强白嫖, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 2, server: uiug.expirationv3.com, port: 9405, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 3, server: aliyun.install01.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 4, server: aliyun.install03.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube：全网最强白嫖, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: ZZ_1443, server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖, server: aliyun.install04.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1019, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1216, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _YouTube：全网最强白嫖, server: 38.68.135.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _YouTube：全网最强白嫖 2, server: aliyun.moble.vnupgcn.cn, port: 9038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1436, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 2, server: aliyun.install03.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇳🇱NL_569, server: 85.208.108.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_107, server: 14.29.124.174, port: 11035, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _YouTube：全网最强白嫖 3, server: 141.193.213.20, port: 80, type: vmess, uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: sanggoro6.nextvpn.cc}, udp: true}
-  - {name: AU_49, server: 43.156.35.124, port: 21953, type: vmess, uuid: 4ef2b7d6-3f58-42c2-95ad-061001b712d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 5, server: 38.75.136.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _YouTube:全网最强白嫖 3, server: aliyun.install02.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 4, server: aliyun.install03.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 5, server: aliyun.install01.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "TG: @mfjdpd", server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: SG_779, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_87, server: centos8.expirationv3.com, port: 8755, type: ss, cipher: aes-128-gcm, password: 58f4886b76f38daeb78986eeb63bc406, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 6, server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_92, server: centos8.expirationv3.com, port: 8753, type: ss, cipher: aes-128-gcm, password: aa740e1ee906513a782b1838aa88c88d, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: "TG: @mfjdpd 2", server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 6, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_781, server: 8.219.146.138, port: 23205, type: vmess, uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wss, ws-headers: {Host: 8.219.146.138}, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 7, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 7, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全网最强白嫖 4, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全网最强白嫖 5, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港高速, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_310, server: kr1.api-aws.com, port: 443, type: trojan, password: 23103894-eec7-4de1-a05a-c2e11e351287, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 8, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_307, server: kr1.api-aws.com, port: 443, type: trojan, password: b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 9, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 8, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 9, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_306, server: kr1.api-aws.com, port: 443, type: trojan, password: 3753719b-eb37-4f34-ab60-ae3a70486b27, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 10, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全网最强白嫖 6, server: 40.73.113.150, port: 30004, type: ss, cipher: aes-128-gcm, password: eemLJsRibUVT17pN, udp: true}
-  - {name: HK_259, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 11, server: 38.75.136.34, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_104, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_258, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_275, server: kr1.api-aws.com, port: 443, type: trojan, password: 1a74fd5e-50dc-43d2-8119-4bce566d784e, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 10, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_276, server: kr1.api-aws.com, port: 443, type: trojan, password: 80b07539-c253-4526-8a80-424708ff2ced, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_274, server: kr1.api-aws.com, port: 443, type: trojan, password: d66dccd1-90c1-4713-8972-2417a2854df2, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_286, server: kr1.api-aws.com, port: 443, type: trojan, password: 7c953fab-2d79-4320-b208-59e07b6033fd, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_89, server: qkhxc.websitesv3.com, port: 9511, type: ss, cipher: aes-128-gcm, password: d5642078e185dd42d0821eb660670c18, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_88, server: dsdfg.updatensv3.com, port: 8736, type: ss, cipher: aes-256-gcm, password: d5b5c8e566d63ce4d91092a16d65ef5f, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_268, server: kr1.api-aws.com, port: 443, type: trojan, password: cbd08acf-2d47-4065-aafa-4201e5307f67, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_297, server: kr1.api-aws.com, port: 443, type: trojan, password: 8c20177e-d245-4ec6-9610-34c20500d10b, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_290, server: kr1.api-aws.com, port: 443, type: trojan, password: 21f204d3-b42e-466a-9cb2-b83d868dcd5f, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_115, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_272, server: kr1.api-aws.com, port: 443, type: trojan, password: 65f7378f-edb8-4f5d-913a-641ecd853cea, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_778, server: sg-am21.eqsunshine.com, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: FR_218, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: _YouTube：全网最强白嫖 7, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 11, server: 38.75.136.34, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_330, server: kr1.api-aws.com, port: 443, type: trojan, password: 84773125-8f79-481c-a80b-e1f4aad86850, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_102, server: cm.spacez.cloud, port: 30000, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 12, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 13, server: 120.233.151.122, port: 9205, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube：全网最强白嫖 8, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 14, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: AU_48, server: 43.154.34.49, port: 23183, type: vmess, uuid: b402a4af-285a-463e-c3a7-53f91efdec78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_108, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _YouTube：全网最强白嫖 9, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_112, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_113, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HU_261, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RO_610, server: 185.126.116.123, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: RO_608, server: 185.126.116.119, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: RO_609, server: 185.126.116.119, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: US_828, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 15, server: 183.232.158.66, port: 9205, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 16, server: 38.68.135.18, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 17, server: 38.121.43.204, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1103, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "TG: @mfjdpd 3", server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 18, server: 183.232.158.67, port: 9205, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: US_1190, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 19, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 20, server: 38.121.43.204, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "TG: @mfjdpd 4", server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: "TG: @mfjdpd 5", server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 12, server: metapod.defun.us, port: 443, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: metapod.defun.us, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 21, server: 38.75.136.34, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 22, server: 38.75.136.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 23, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 24, server: 38.75.136.34, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _YouTube：全网最强白嫖 10, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: US_800, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: DE_121, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_85, server: 161.129.60.17, port: 25634, type: trojan, password: a2a37460-2a05-3211-b0d6-d0b37971f84e, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全网最强白嫖 11, server: 38.68.135.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _YouTube：全网最强白嫖 12, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_856, server: us218.hootfun.top, port: 52333, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: us218.hootfun.top, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 25, server: 120.233.151.122, port: 9203, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube：全网最强白嫖 13, server: 38.75.136.34, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Pool_🇳🇱NL_585, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 26, server: linux.nameserversv3.com, port: 9206, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Pool_🇳🇱NL_591, server: 85.208.108.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _YouTube:全网最强白嫖 13, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 14, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube:全网最强白嫖, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 27, server: 183.232.158.66, port: 9203, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 28, server: uiug.expirationv3.com, port: 9407, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: LT_337, server: 213.183.53.198, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 29, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}, udp: true}
-  - {name: _YouTube：全网最强白嫖 14, server: ersgdf.passwordv2.com, port: 7402, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
-  - {name: "TG: @mfjdpd 6", server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: LT_336, server: 213.183.53.198, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: _YouTube:全网最强白嫖 15, server: hawaii.missionsec.us, port: 18331, type: trojan, password: oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw, sni: hawaii.missionsec.us, skip-cert-verify: true, udp: true}
-  - {name: LT_345, server: 213.183.53.198, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: LT_339, server: 213.183.53.198, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 30, server: linux.nameserversv3.com, port: 9203, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 31, server: 213.183.53.198, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 32, server: 825hk01.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 825hk01.fx6688.top}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_86, server: sadfsn.domainsv3.com, port: 9403, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _YouTube:全网最强白嫖 16, server: aliyun.unicom.vnupgcn.cn, port: 9024, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 33, server: 183.232.158.120, port: 7401, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 34, server: 213.183.53.198, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: _YouTube:全网最强白嫖 17, server: aliyun.unicom.vnupgcn.cn, port: 9028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 35, server: ersgdf.passwordv2.com, port: 7401, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_111, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 36, server: 38.75.136.34, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _YouTube：全网最强白嫖 15, server: 38.75.136.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1130, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1383, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _YouTube：全我那个最强白嫖 37, server: 183.232.158.67, port: 9203, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_109, server: 14.29.124.174, port: 11031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _YouTube:全网最强白嫖 18, server: aliyun.install04.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全网最强白嫖 16, server: aliyun.moble.vnupgcn.cn, port: 9009, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_114, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 19, server: aliyun.install03.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube:全网最强白嫖 20, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _YouTube：全我那个最强白嫖 38, server: aliyun.install04.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _04, server: 43.142.87.128, port: 4816, type: vmess, uuid: 12bfc8c6-1b07-4f07-d3c3-f185e89e961c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _06, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_24, server: 185.167.116.250, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: FR_151, server: 35.180.202.38, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: GB_215, server: 3.9.175.102, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: GB_216, server: 3.8.216.52, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: HK_237, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_239, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IT_248, server: 5.181.132.235, port: 31372, type: vmess, uuid: 0bb88eea-73a5-4e37-ac8b-03090a57acba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_543, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦 CA-🇨🇦CA_41, server: 96tw.tfzhc.top, port: 443, type: trojan, password: d450d9fe-05fb-45ee-bb73-228d700792a0, sni: 96tw.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇭🇰HK_85, server: da.kanao.xyz, port: 58819, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇳🇱NL_82, server: xi.kanao.xyz, port: 58830, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: xi.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇳🇱NL_84, server: da.kanao.xyz, port: 58825, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇷🇺RU_78, server: xi.kanao.xyz, port: 58813, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: xi.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇷🇺RU_80, server: da.kanao.xyz, port: 58828, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳 CN-🇸🇬SG_76, server: 36.133.55.163, port: 6610, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
+  - {name: Relay_🇨🇳 CN-🇻🇳VN_79, server: da.kanao.xyz, port: 58814, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_87, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_89, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_86, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_87, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪 DE-🇩🇪DE_92, server: sg8-trojan.bonds.id, port: 443, type: trojan, password: 723b0120-2d2f-11ed-9576-1239d0255272, sni: sg8-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪 DE-🇩🇪DE_93, server: ty1-2.nigirocloud.com, port: 443, type: trojan, password: 4V4kxVXmcg5Yn2DqF2, sni: ty1-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰 HK-🇭🇰HK_232, server: az.libi.eu.org, port: 443, type: trojan, password: bca9817f-77ad-4705-897d-121b4613aa9c, sni: az.libi.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇮🇩 ID-🇮🇩ID_242, server: id2-trojan.bonds.id, port: 443, type: trojan, password: 067efd00-2e7d-11ed-bc31-1239d0255272, sni: id2-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇳🇱 NL-🇳🇱NL_465, server: api.hostyunjp.frydipxian.top, port: 9018, type: trojan, password: 97ea5c08e262acf366b3b973b91960cb, sni: api.hostyunjp.frydipxian.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺 RU-🇷🇺RU_584, server: ttt3.swiftfalcon.app, port: 8443, type: trojan, password: coldwar2, sni: ttt3.swiftfalcon.app, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬 SG-🇸🇬SG_654, server: sg6-trojan.bonds.id, port: 443, type: trojan, password: 941a3ea0-2d2f-11ed-9982-1239d0255272, sni: sg6-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_680, server: sg-am21.eqsunshine.com, port: 8080, type: ssr, cipher: aes-256-cfb, password: jUQAcjhEG, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_693, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_738, server: hk3.hktkcloud.cloud, port: 443, type: trojan, password: d4119dee-493a-407f-9109-a36d62153e19, sni: hk3.hktkcloud.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸 US-🇺🇸US_764, server: shouer.libi.eu.org, port: 443, type: trojan, password: bca9817f-77ad-4705-897d-121b4613aa9c, sni: shouer.libi.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1311, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1337, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: RO_558, server: 185.126.116.119, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: RO_564, server: 185.126.116.119, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: RO_566, server: 185.126.116.119, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: RO_569, server: 185.126.116.119, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: SG_651, server: 18.141.8.87, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: SG_652, server: 18.140.67.76, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: SG_682, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_1016, server: 167.88.61.14, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1017, server: 167.88.61.14, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1110, server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1112, server: 167.88.61.14, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1113, server: 167.88.61.14, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1202, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1218, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1260, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1322, server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 161.129.34.102}, udp: true}
+  - {name: US_702, server: 167.88.61.14, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_719, server: 167.88.61.14, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_732, server: 167.88.61.14, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_744, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
+  - {name: US_753, server: 13.38.55.14, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: US_754, server: 13.40.154.20, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: US_759, server: agroup.node5.t.nodelist-gfwairport.download, port: 50001, type: trojan, password: 228a99d3-1686-4278-85b1-650b2138da96, sni: agroup.node5.t.nodelist-gfwairport.download, skip-cert-verify: true, udp: true}
+  - {name: US_768, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_771, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_772, server: 34.219.230.191, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
+  - {name: US_827, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_847, server: 167.88.61.175, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_866, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_878, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_917, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_950, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_958, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_1386, server: 169.197.142.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_1414, server: 169.197.142.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_1427, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_1434, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_1468, server: 103.159.132.102, port: 31372, type: vmess, uuid: c11236af-56a6-49b3-c1b9-7b54ac3acb42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_1469, server: 103.186.148.113, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shopvpn.net, ws-headers: {Host: 103.186.148.113}, udp: true}
+  - {name: ZZ_1470, server: 103.186.149.242, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shopvpn.net, ws-headers: {Host: 103.186.149.242}, udp: true}
+  - {name: 🇨🇳, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 2, server: 14.29.124.174, port: 11001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 3, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国(TG频道:@kxswa), server: xi.kanao.xyz, port: 58831, type: trojan, password: 7b78d07f-6382-4e2c-a4bb-dbe3dbef1bd6, sni: xi.kanao.xyz, skip-cert-verify: true, udp: true}
+  - {name: 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195, server: 14.29.124.174, port: 11034, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: github.com/freefq - 美国Amazon数据中心 10, server: 13.59.234.47, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Amazon数据中心 10 2, server: 13.59.234.47, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34, server: bw.mario-web.live, port: 443, type: vmess, uuid: dbea6907-abf2-4cc2-d507-bba7998beb65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US 25 推广https://t.me/xingchen0829, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: US【付费推荐：tt.vg/vip】, server: 8.9.30.35, port: 29544, type: trojan, password: rmo75mm5xK, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: 18.118.142.251, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_0906101, server: small.rome.tk, port: 19088, type: vmess, uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: small.rome.tk}, udp: true}
+  - {name: 美国EB, server: 13.59.234.47, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -612,601 +392,379 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港高速
-      - _CN_中国->🇭🇰_HK_香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1222,149 +780,94 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _YouTube：全我那个最强白嫖
-      - _YouTube：全我那个最强白嫖 2
-      - _YouTube：全我那个最强白嫖 3
-      - _YouTube：全我那个最强白嫖 4
-      - YouTube：全网最强白嫖
-      - ZZ_1443
-      - _YouTube:全网最强白嫖
-      - US_1019
-      - US_1216
-      - _YouTube：全网最强白嫖
-      - _YouTube：全网最强白嫖 2
-      - Relay_🇺🇸US-🇺🇸US_1436
-      - _YouTube:全网最强白嫖 2
-      - Pool_🇳🇱NL_569
-      - Relay_🇨🇳CN-🇭🇰HK_107
-      - _YouTube：全网最强白嫖 3
-      - AU_49
-      - _YouTube：全我那个最强白嫖 5
-      - _YouTube:全网最强白嫖 3
-      - _YouTube:全网最强白嫖 4
-      - _YouTube:全网最强白嫖 5
-      - "TG: @mfjdpd"
-      - SG_779
-      - Relay_🇨🇳 CN-🇹🇼TW_87
-      - _YouTube：全我那个最强白嫖 6
-      - Relay_🇨🇳 CN-🇹🇼TW_92
-      - "TG: @mfjdpd 2"
-      - _YouTube:全网最强白嫖 6
-      - SG_781
-      - _YouTube：全我那个最强白嫖 7
-      - _YouTube:全网最强白嫖 7
-      - _YouTube：全网最强白嫖 4
-      - _YouTube：全网最强白嫖 5
-      - 香港高速
-      - Relay_🇯🇵 JP-🇯🇵JP_310
-      - _YouTube：全我那个最强白嫖 8
-      - Relay_🇯🇵 JP-🇯🇵JP_307
-      - _YouTube：全我那个最强白嫖 9
-      - _YouTube:全网最强白嫖 8
-      - _YouTube:全网最强白嫖 9
-      - Relay_🇯🇵 JP-🇯🇵JP_306
-      - _YouTube:全网最强白嫖 10
-      - _YouTube：全网最强白嫖 6
-      - HK_259
-      - _YouTube:全网最强白嫖 11
-      - Relay_🇨🇳 CN-🇭🇰HK_104
-      - HK_258
-      - Relay_🇯🇵 JP-🇯🇵JP_275
-      - _YouTube：全我那个最强白嫖 10
-      - Relay_🇯🇵 JP-🇯🇵JP_276
-      - Relay_🇯🇵 JP-🇯🇵JP_274
-      - Relay_🇯🇵 JP-🇯🇵JP_286
-      - Relay_🇨🇳 CN-🇭🇰HK_89
-      - Relay_🇨🇳 CN-🇭🇰HK_88
-      - Relay_🇯🇵 JP-🇯🇵JP_268
-      - Relay_🇯🇵 JP-🇯🇵JP_297
-      - Relay_🇯🇵 JP-🇯🇵JP_290
-      - Relay_🇨🇳CN-🇹🇼TW_115
-      - Relay_🇯🇵 JP-🇯🇵JP_272
-      - Relay_🇸🇬SG-🇸🇬SG_778
-      - FR_218
-      - _YouTube：全网最强白嫖 7
-      - _YouTube：全我那个最强白嫖 11
-      - Relay_🇯🇵JP-🇯🇵JP_330
-      - Relay_🇨🇳 CN-🇭🇰HK_102
-      - _YouTube：全我那个最强白嫖 12
-      - _YouTube：全我那个最强白嫖 13
-      - _YouTube：全网最强白嫖 8
-      - _YouTube：全我那个最强白嫖 14
-      - AU_48
-      - Relay_🇨🇳CN-🇭🇰HK_108
-      - _YouTube：全网最强白嫖 9
-      - Relay_🇨🇳CN-🇭🇰HK_112
-      - Relay_🇨🇳CN-🇭🇰HK_113
-      - HU_261
-      - RO_610
-      - RO_608
-      - RO_609
-      - US_828
-      - _YouTube：全我那个最强白嫖 15
-      - _YouTube：全我那个最强白嫖 16
-      - _YouTube：全我那个最强白嫖 17
-      - US_1103
-      - "TG: @mfjdpd 3"
-      - _YouTube：全我那个最强白嫖 18
-      - US_1190
-      - _YouTube：全我那个最强白嫖 19
-      - _YouTube：全我那个最强白嫖 20
-      - "TG: @mfjdpd 4"
-      - "TG: @mfjdpd 5"
-      - _YouTube:全网最强白嫖 12
-      - _YouTube：全我那个最强白嫖 21
-      - _YouTube：全我那个最强白嫖 22
-      - _YouTube：全我那个最强白嫖 23
-      - _YouTube：全我那个最强白嫖 24
-      - _YouTube：全网最强白嫖 10
-      - US_800
-      - DE_121
-      - CA_85
-      - _YouTube：全网最强白嫖 11
-      - _YouTube：全网最强白嫖 12
-      - Relay_🇺🇸 US-🇺🇸US_856
-      - _YouTube：全我那个最强白嫖 25
-      - _YouTube：全网最强白嫖 13
-      - Pool_🇳🇱NL_585
-      - _YouTube：全我那个最强白嫖 26
-      - Pool_🇳🇱NL_591
-      - _YouTube:全网最强白嫖 13
-      - _YouTube:全网最强白嫖 14
-      - _CN_中国->🇭🇰_HK_香港
-      - YouTube:全网最强白嫖
-      - _YouTube：全我那个最强白嫖 27
-      - _YouTube：全我那个最强白嫖 28
-      - LT_337
-      - _YouTube：全我那个最强白嫖 29
-      - _YouTube：全网最强白嫖 14
-      - "TG: @mfjdpd 6"
-      - LT_336
-      - _YouTube:全网最强白嫖 15
-      - LT_345
-      - LT_339
-      - _YouTube：全我那个最强白嫖 30
-      - _YouTube：全我那个最强白嫖 31
-      - _YouTube：全我那个最强白嫖 32
-      - Relay_🇨🇳 CN-🇺🇸US_86
-      - _YouTube:全网最强白嫖 16
-      - _YouTube：全我那个最强白嫖 33
-      - _YouTube：全我那个最强白嫖 34
-      - _YouTube:全网最强白嫖 17
-      - _YouTube：全我那个最强白嫖 35
-      - Relay_🇨🇳CN-🇭🇰HK_111
-      - _YouTube：全我那个最强白嫖 36
-      - _YouTube：全网最强白嫖 15
-      - US_1130
-      - Relay_🇺🇸US-🇺🇸US_1383
-      - _YouTube：全我那个最强白嫖 37
-      - Relay_🇨🇳CN-🇭🇰HK_109
-      - _YouTube:全网最强白嫖 18
-      - _YouTube：全网最强白嫖 16
-      - Relay_🇨🇳CN-🇷🇺RU_114
-      - _YouTube:全网最强白嫖 19
-      - _YouTube:全网最强白嫖 20
-      - _YouTube：全我那个最强白嫖 38
+      - _04
+      - _06
+      - AU_24
+      - FR_151
+      - GB_215
+      - GB_216
+      - HK_237
+      - HK_239
+      - IT_248
+      - NL_543
+      - Relay_🇨🇦 CA-🇨🇦CA_41
+      - Relay_🇨🇳 CN-🇭🇰HK_85
+      - Relay_🇨🇳 CN-🇳🇱NL_82
+      - Relay_🇨🇳 CN-🇳🇱NL_84
+      - Relay_🇨🇳 CN-🇷🇺RU_78
+      - Relay_🇨🇳 CN-🇷🇺RU_80
+      - Relay_🇨🇳 CN-🇸🇬SG_76
+      - Relay_🇨🇳 CN-🇻🇳VN_79
+      - Relay_🇨🇳CN-🇭🇰HK_87
+      - Relay_🇨🇳CN-🇭🇰HK_89
+      - Relay_🇨🇳CN-🇷🇺RU_86
+      - Relay_🇨🇳CN-🇷🇺RU_87
+      - Relay_🇩🇪 DE-🇩🇪DE_92
+      - Relay_🇩🇪 DE-🇩🇪DE_93
+      - Relay_🇭🇰 HK-🇭🇰HK_232
+      - Relay_🇮🇩 ID-🇮🇩ID_242
+      - Relay_🇳🇱 NL-🇳🇱NL_465
+      - Relay_🇷🇺 RU-🇷🇺RU_584
+      - Relay_🇸🇬 SG-🇸🇬SG_654
+      - Relay_🇸🇬SG-🇸🇬SG_680
+      - Relay_🇹🇼TW-🇹🇼TW_693
+      - Relay_🇺🇸 US-🇺🇸US_738
+      - Relay_🇺🇸 US-🇺🇸US_764
+      - Relay_🇺🇸US-🇺🇸US_1311
+      - Relay_🇺🇸US-🇺🇸US_1337
+      - RO_558
+      - RO_564
+      - RO_566
+      - RO_569
+      - SG_651
+      - SG_652
+      - SG_682
+      - US_1016
+      - US_1017
+      - US_1110
+      - US_1112
+      - US_1113
+      - US_1202
+      - US_1218
+      - US_1260
+      - US_1322
+      - US_702
+      - US_719
+      - US_732
+      - US_744
+      - US_753
+      - US_754
+      - US_759
+      - US_768
+      - US_771
+      - US_772
+      - US_827
+      - US_847
+      - US_866
+      - US_878
+      - US_917
+      - US_950
+      - US_958
+      - ZZ_1386
+      - ZZ_1414
+      - ZZ_1427
+      - ZZ_1434
+      - ZZ_1468
+      - ZZ_1469
+      - ZZ_1470
+      - 🇨🇳
+      - 🇨🇳 2
+      - 🇨🇳 3
+      - 中国(TG频道:@kxswa)
+      - 【tg@freevpn8】_🇨🇳CN-🇭🇰HK_195
+      - github.com/freefq - 美国Amazon数据中心 10
+      - github.com/freefq - 美国Amazon数据中心 10 2
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 34
+      - US 25 推广https://t.me/xingchen0829
+      - US【付费推荐：tt.vg/vip】
+      - 美国(TG频道:@kxswa)
+      - 美国_0906101
+      - 美国EB
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
